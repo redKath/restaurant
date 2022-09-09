@@ -3,15 +3,44 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+  font-family: 'RocknRoll One', sans-serif;
+}
 
+nav,
+ul {
+  display: flex;
 
+}
+
+nav {
+  justify-content: space-around;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul li {
+  width: 140px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(44, 42, 39, 1);
+}
 
 /******************************************
 /* ADDITIONAL STYLES

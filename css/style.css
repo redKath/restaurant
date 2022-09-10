@@ -87,6 +87,22 @@ main ul {
   justify-content: space-between;
 }
 
+.aboutUs {
+  margin: 0 550px;
+}
+
+.aboutUsContainer {
+  background: url(../img/aboutUsbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.aboutUs h4 {
+  margin-top: 0;
+  padding-top: 20px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

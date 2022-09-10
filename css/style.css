@@ -90,6 +90,7 @@ main ul {
 .aboutUs {
   margin: 0 550px;
   width: 300px;
+  padding: 100px 0;
 }
 
 .aboutUsContainer {
@@ -100,9 +101,37 @@ main ul {
   height: 650px;
 }
 
-.aboutUs h4 {
+h4 {
   margin-top: 0;
   padding-top: 20px;
+}
+
+.orderNow {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.orderNow {
+  background: url(../img/orderNowbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.orderNow h2+ul,
+.menuCards {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.menuCards div {
+
+  height: 150px;
+  border: 2px solid rgba(241, 90, 38, 0.6);
+  width: 150px;
 }
 
 /******************************************

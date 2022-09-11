@@ -106,7 +106,8 @@ h4 {
   padding-top: 20px;
 }
 
-.orderNow {
+.orderNow,
+.businessHours {
   text-align: center;
   padding: 100px 0;
 }
@@ -132,6 +133,35 @@ h4 {
   height: 150px;
   border: 2px solid rgba(241, 90, 38, 0.6);
   width: 150px;
+}
+
+.businessHours section {
+  display: flex;
+  justify-content: center;
+
+}
+
+.businessHours {
+  background: url(../img/businessHoursbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.businessHours div {
+  margin: 0 50px;
+}
+
+.fas,
+.fa {
+  color: rgba(241, 90, 38, 0.8);
+}
+
+.fa-phone-alt {
+  border: 2px solid rgba(241, 90, 38, 0.8);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 /******************************************

@@ -113,6 +113,12 @@ h4 {
 }
 
 .orderNow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orderNow {
   background: url(../img/orderNowbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,19 +126,26 @@ h4 {
   height: 500px;
 }
 
-.orderNow h2+ul,
-.menuCards {
+.orderNow h2+ul {
   width: 50%;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
 
+/* .menuCards {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 0 auto;
+} */
+
 .menuCards div {
 
-  height: 150px;
+  height: 200px;
   border: 2px solid rgba(241, 90, 38, 0.6);
-  width: 150px;
+  width: 200px;
+  margin: 10px 10px 0 0;
 }
 
 .businessHours section {
@@ -162,6 +175,55 @@ h4 {
   border: 2px solid rgba(241, 90, 38, 0.8);
   padding: 10px;
   border-radius: 50%;
+}
+
+#card1 {
+  background: url(../img/breakfast/b01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card2 {
+  background: url(../img/breakfast/b02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card3 {
+  background: url(../img/breakfast/b03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card4 {
+  background: url(../img/breakfast/b04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menuCards a {
+  display: inline-block;
+  width: 210px;
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid #E5E9EA;
+}
+
+#meal1 {
+  display: inline-block;
+  width: 210px;
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid rgba(241, 90, 38, 0.8);
+}
+
+#selectedMeal {
+  display: inline-block;
+  width: 210px;
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid rgba(241, 90, 38, 0.8);
 }
 
 /******************************************

@@ -16,7 +16,8 @@ html {
 }
 
 nav,
-ul,
+nav ul,
+main ul,
 .flexContainer {
   display: flex;
 

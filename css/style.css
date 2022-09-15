@@ -108,7 +108,8 @@ h4 {
 }
 
 .orderNow,
-.businessHours {
+.businessHours,
+.testimonials {
   text-align: center;
   padding: 100px 0;
 }
@@ -155,7 +156,8 @@ h4 {
 
 }
 
-.businessHours {
+.businessHours,
+.testimonials {
   background: url(../img/businessHoursbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,6 +227,16 @@ h4 {
   width: 210px;
   padding: 0 0 2px 0;
   border-bottom: 2px solid rgba(241, 90, 38, 0.8);
+}
+
+.testimonials img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.testimonials i+p {
+  width: 50%;
+  margin: auto;
 }
 
 /******************************************

@@ -17,10 +17,23 @@ const hoverFood1Breakfast = () => {
     console.log('works liek a charm')
 }
 
-const outFood1Breakfast = () => {
+const outFood1 = () => {
     food1.style.removeProperty('filter');
     console.log('works liek aasa charm')
     food1.innerHTML = ''
+}
+
+const hoverFood2Breakfast = () => {
+    food2.style.cssText = 'filter: brightness(50%); padding: 50px 0;'
+    // document.styleSheets[0].insertRule('#food1::after { content: ""; opacity: 0.5; }', 0);
+    food2.innerHTML = '<h2>$16.99</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Rice + Miso Soup & Tofu + Fish</p><button>Order Now</button>'
+    console.log('food 2 breakfast')
+}
+
+const outFood2 = () => {
+    food2.style.removeProperty('filter');
+    // console.log('works liek aasa charm')
+    food2.innerHTML = ''
 }
 
 const chooseBreakfast = () => {
@@ -35,10 +48,23 @@ const chooseBreakfast = () => {
     food4.style.cssText = 'background-image: url("./img/breakfast/b04.png"); background-repeat: no-repeat; background-position: center center; '
 
     food1.addEventListener("mouseover", hoverFood1Breakfast);
-    food1.addEventListener("mouseout", outFood1Breakfast);
+    food1.addEventListener("mouseout", outFood1);
 
+    food2.addEventListener("mouseover", hoverFood2Breakfast);
+    food2.addEventListener("mouseout", outFood2);
 
 }
+const hoverFood1Lunch = () => {
+    if (lunch.id == "selectedMeal") {
+        food1.style.cssText = 'background-image: url("./img/lunch/l01.png"); background-repeat: no-repeat; background-position: center center; '
+        food1.style.cssText = 'filter: brightness(50%); padding: 50px 0;'
+        // document.styleSheets[0].insertRule('#food1::after { content: ""; opacity: 0.5; }', 0);
+        food1.innerHTML = '<h2>$15.99</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Seafood gourmet</p><button>Order Now</button>'
+        console.log('food 1 lunch')
+    }
+
+}
+
 
 const chooseLunch = () => {
     lunch.setAttribute("id", "selectedMeal");
@@ -50,6 +76,9 @@ const chooseLunch = () => {
     food2.style.cssText = 'background-image: url("./img/lunch/l02.png"); background-repeat: no-repeat; background-position: center center; '
     food3.style.cssText = 'background-image: url("./img/lunch/l03.png"); background-repeat: no-repeat; background-position: center center; '
     food4.style.cssText = 'background-image: url("./img/lunch/l04.png"); background-repeat: no-repeat; background-position: center center; '
+
+    food1.addEventListener("mouseover", hoverFood1Lunch);
+    food1.addEventListener("mouseout", outFood1);
 }
 
 const chooseDinner = () => {

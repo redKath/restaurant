@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -187,8 +191,54 @@ h4 {
   background-position: center;
 }
 
+/* #card1:hover {
+  opacity: 0.5;
+} */
+
+#card12 {
+  background: url(../img/lunch/l01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card13 {
+  background: url(../img/dinner/d01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card14 {
+  background: url(../img/dessert/ds01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #card2 {
   background: url(../img/breakfast/b02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card22 {
+  background: url(../img/lunch/l02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card23 {
+  background: url(../img/dinner/d02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card24 {
+  background: url(../img/dessert/ds02.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

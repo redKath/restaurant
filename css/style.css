@@ -191,10 +191,6 @@ h4 {
   background-position: center;
 }
 
-/* #card1:hover {
-  opacity: 0.5;
-} */
-
 #card12 {
   background: url(../img/lunch/l01.png);
   background-repeat: no-repeat;
@@ -214,6 +210,10 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.menuCards button {
+  color: white;
 }
 
 #card2 {
@@ -251,8 +251,50 @@ h4 {
   background-position: center;
 }
 
+#card32 {
+  background: url(../img/lunch/l03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card33 {
+  background: url(../img/dinner/d03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card34 {
+  background: url(../img/dessert/ds03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #card4 {
   background: url(../img/breakfast/b04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card42 {
+  background: url(../img/lunch/l04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card43 {
+  background: url(../img/dinner/d04.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card44 {
+  background: url(../img/dessert/ds04.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

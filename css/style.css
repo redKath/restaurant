@@ -113,7 +113,7 @@ h4 {
 
 .orderNow,
 .businessHours,
-.testimonials {
+.testimonialx {
   text-align: center;
   padding: 100px 0;
 }
@@ -161,7 +161,7 @@ h4 {
 }
 
 .businessHours,
-.testimonials {
+.testimonialx {
   background: url(../img/businessHoursbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +174,8 @@ h4 {
 }
 
 .fas,
-.fa {
+.fa,
+h4 {
   color: rgba(241, 90, 38, 0.8);
 }
 
@@ -321,14 +322,45 @@ h4 {
   border-bottom: 2px solid rgba(241, 90, 38, 0.8);
 }
 
-.testimonials img {
+.testimonialx img {
   width: 80px;
   border-radius: 50%;
 }
 
-.testimonials i+p {
+.testimonialx i+p {
   width: 50%;
   margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #333333;
+  color: #BCBCBC;
+
+
+}
+
+footer h6 {
+  color: #7B7B7B;
+}
+
+footer section {
+  width: 33%;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer>* {
+  margin: 25px 0 25px 100px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
 /******************************************

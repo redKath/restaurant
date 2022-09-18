@@ -223,8 +223,7 @@ const chooseLunch = () => {
 //****************************************************
 const hoverFood1Dinner = () => {
     food13.style.cssText = 'background-image: url("./img/dinner/d01x.png"); padding: 50px 0; color:white'
-    food13.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
-    console.log('food 2lunch')
+    food13.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy Japanese dinner</p><button>Order Now</button>'
 }
 
 const outFood1Dinner = () => {
@@ -235,7 +234,7 @@ const outFood1Dinner = () => {
 
 const hoverFood2Dinner = () => {
     food23.style.cssText = 'background-image: url("./img/dinner/d02x.png"); padding: 50px 0; color:white'
-    food23.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food23.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Seafood dinner</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -247,7 +246,7 @@ const outFood2Dinner = () => {
 
 const hoverFood3Dinner = () => {
     food33.style.cssText = 'background-image: url("./img/dinner/d03x.png"); padding: 50px 0; color:white'
-    food33.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food33.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Japanese sushi with veggies</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -259,7 +258,7 @@ const outFood3Dinner = () => {
 
 const hoverFood4Dinner = () => {
     food43.style.cssText = 'background-image: url("./img/dinner/d04x.png"); padding: 50px 0; color:white'
-    food43.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food43.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Savory ramen + tempura</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -313,7 +312,7 @@ const chooseDinner = () => {
 
 const hoverFood1Dessert = () => {
     food14.style.cssText = 'background-image: url("./img/dessert/ds01x.png"); padding: 50px 0; color:white'
-    food14.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food14.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Ice cream sundae</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -325,7 +324,7 @@ const outFood1Dessert = () => {
 
 const hoverFood2Dessert = () => {
     food24.style.cssText = 'background-image: url("./img/dessert/ds02x.png"); padding: 50px 0; color:white'
-    food24.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food24.innerHTML = '<h2>$19.99</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Strawberry with red beans</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -338,7 +337,7 @@ const outFood2Dessert = () => {
 
 const hoverFood3Dessert = () => {
     food34.style.cssText = 'background-image: url("./img/dessert/ds03x.png"); padding: 50px 0; color:white'
-    food34.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food34.innerHTML = '<h2>$12.99</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Gelatin ice cream + cherry</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 
@@ -352,7 +351,7 @@ const outFood3Dessert = () => {
 
 const hoverFood4Dessert = () => {
     food44.style.cssText = 'background-image: url("./img/dessert/ds04x.png"); padding: 50px 0; color:white'
-    food44.innerHTML = '<h2>$10.89</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Healthy lunch with veggies</p><button>Order Now</button>'
+    food44.innerHTML = '<h2>$13.99</h2><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Purin: Japanese Custard Pudding</p><button>Order Now</button>'
     console.log('food 2lunch')
 }
 

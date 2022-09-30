@@ -19,6 +19,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/videoslider.css">
 		<link rel="stylesheet" href="css/testimonials.css">
+		<link rel="stylesheet" href="css/sidebar.css">
 	</head>
 
 	<body>
@@ -26,7 +27,11 @@
 		<main>
 			<nav>
 				<img src="./img/tydrew-text-logo.png" alt="tydrew-logo, winking octopus">
-				<ul>
+				<input id="menu-toggle" type="checkbox" class="hidden" />
+				<label class='menu-button-container' for="menu-toggle">
+					<div class='menu-button'></div>
+				</label>
+				<ul class="menu">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About Us</a></li>
 					<li><a href="#orderNow">Order Now</a></li>
@@ -136,15 +141,6 @@
 				</div>
 			</section>
 		</section>
-
-		<!-- <h2>$14.99</h2>
-		<i class="fas fa-star"></i>
-		<i class="fas fa-star"></i>
-		<i class="fas fa-star"></i>
-		<i class="fas fa-star"></i>
-		<i class="fas fa-star"></i>
-		<p>Rice + Miso Soup + Salmon</p>
-		<button>Order Now</button> -->
 
 		<section class="videoSlider">
 			<div style="height: 100%; overflow-x: hidden; text-align: center">

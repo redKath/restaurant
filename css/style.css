@@ -445,4 +445,32 @@ footer>* {
   nav ul li:nth-child(4) {
     display: none;
   }
+
+  main>* {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .aboutUs {
+    margin: 0 250px;
+  }
+
+  footer img {
+    height: 25px;
+  }
+
+  footer>* {
+    margin: 25px 20px;
+  }
+
+  .inputField {
+    width: 120px;
+  }
+
+
 }

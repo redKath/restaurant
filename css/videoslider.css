@@ -310,3 +310,11 @@
 .videoSlider p {
     margin-left: 3em;
 }
+
+@media (min-width:481px) and (max-width:825px) {
+    #slider1 {
+        margin: 0 100px;
+    }
+
+
+}
